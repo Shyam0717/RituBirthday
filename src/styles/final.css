@@ -1,0 +1,27 @@
+.final-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .final-page h1 {
+    font-size: 5rem;
+    color: #333;
+  }
+  
+  .final-page p {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  
+  .final-page p:last-child {
+    margin-bottom: 0;
+  }
+  

@@ -1,0 +1,39 @@
+/* timeline.css */
+.timeline-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+.timeline-content h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.timeline-content p {
+  font-size: 14px;
+  color: #777;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+/* Adjust the spacing and sizes as needed */

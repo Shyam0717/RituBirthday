@@ -1,0 +1,128 @@
+/* wishespage.css */
+.wishes-page {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: auto; /* Add overflow property */
+}
+
+.animated-elements {
+    background-color: #ffe6e6;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* position: relative; */
+    max-width: 800px; /* Added max-width */
+    overflow: hidden; /* Add overflow property */
+    margin-top: 500px;
+}
+
+.paras {
+    padding: 20px;
+    overflow: auto; /* Add overflow property */
+}
+
+.paras p {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.animated-elements p {
+    margin-bottom: 20px;
+}
+
+.heart-emoji {
+    display: inline-block;
+    animation: float 2s infinite;
+}
+
+.heart-emoji:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.heart-emoji:nth-child(3) {
+    animation-delay: 1s;
+}
+
+/* Positioning for floating hearts */
+.heart-float1,
+.heart-float2,
+.heart-float3,
+.heart-float4 {
+    position: absolute;
+    animation: float 2s infinite;
+    font-size: 20px;
+}
+
+.heart-float1 {
+    top: 5%;
+    left: 5%;
+}
+
+.heart-float2 {
+    top: 5%;
+    right: 5%;
+}
+
+.heart-float3 {
+    bottom: 5%;
+    left: 5%;
+}
+
+.heart-float4 {
+    bottom: 1%;
+    right: 5%;
+}
+
+/* Button styling */
+.next-button {
+    background-color: #f39;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #333;
+}
+
+.next-button:hover {
+    background-color: #45a049;
+}
+
+/* Additional styles for larger screens */
+@media (min-width: 768px) {
+    .wishes-page {
+        padding: 50px;
+    }
+
+    .animated-elements {
+        margin-top: 50px;
+        padding: 30px; /* Adjusted padding for larger screens */
+    }
+
+    .paras {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}

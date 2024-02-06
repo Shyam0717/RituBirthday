@@ -1,0 +1,58 @@
+/* homepage.css */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the page takes up the full height of the viewport */
+  /* background-color: #598392; */
+}
+
+.homepage {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.countdown {
+  margin-top: 20px;
+}
+
+.countdown p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.wishes-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff7f50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.wishes-button:hover {
+  background-color: #ff6347;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 2rem;
+  }
+
+  .wishes-button {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+}
