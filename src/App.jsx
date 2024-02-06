@@ -10,9 +10,9 @@ import FinalPage from './components/FinalPage';
 
 function App() {
   // Set her birthday date (YYYY-MM-DD)
-  const birthdayDate = '2024-02-06';
+  const birthdayDate = '2024-02-07';
   // Set the birthday time (HH:MM:SS)
-  const birthdayTime = '21:08:00';
+  const birthdayTime = '00:00:00';
 
   return (
     <Router>
